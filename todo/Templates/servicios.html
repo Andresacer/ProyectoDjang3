@@ -1,0 +1,85 @@
+{% extends 'layout.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <img src="{% static '{media/logo.jpg' %}" alt="logo">
+    <title>T-DEPORTIVA</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+
+    <section id="hero">
+        <h1>💲TIENDA DEPORTIVA <br>LOS DEL BARRIO💲</h1>
+        <button>INGRESAR</button>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>🧩​ Nuestra <span class="color-acento">Tienda Deportiva</span></h2>
+                <p>La industria del deporte constituye un negocio muy amplio que abarca desde la venta de alimentos y souvenirs deportivos hasta la venta de derechos de difusión y los acuerdos de patrocinio. En esta industria hay numerosas partes interesadas, desde los clubes, las ligas y los patrocinadores a los organismos de radiodifusión y, por supuesto, los fabricantes del equipamiento que hace posible el deporte de alto nivel: la industria de los artículos deportivos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestro Catalogo</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Ropa Deportiva</h3>
+                    <p>Atrevida, práctica y ligera es el estilo que define tu ropa deportiva ¡Si vas a sudar que sea con elegancia!
+
+                        Hacer deporte no esta fuera de moda, su ropa tampoco ¡Define tu etilo deportivo!
+                        
+                        Con ropa deportiva te mueves, elige calidad para que te lleve el ritmo ¡Confía en tu intuición!</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Accesorios</h3>
+                    <p>Los accesorios son el toque que te distingue de las demás.
+
+                        Jamás vestirás igual que alguien más, si eliges tus accesorios de acuerdo a tu identidad.
+                        
+                        Son los accesorios los que pueden hacer o destruir, cualquier outfit,
+                        
+                        Ninguna prenda de moda expresa más la personalidad que los accesorios. Son tu pequeña marca personal.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Calzado</h3>
+                    <p>Mamá siempre decía que se puede decir mucho sobre una persona por sus zapatos. A dónde van, a dónde estuvieron. Yo usé un montón de zapatos. Nunca conoces realmente a una persona hasta que no has llevado sus zapatos y has caminado con ellos.</p>
+                    <button>+ Info</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✅​ 100% Original</li>
+                <li>✅​ Producto de buena Calidad</li>
+                <li>✅​ Garantia</li>
+                <li>✅​ Promocion constante</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Deseas comprar algun elemento?</h2>
+        <button>Clic Aqui</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; EN LA BUENA NEA &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
+{% endblock %}
